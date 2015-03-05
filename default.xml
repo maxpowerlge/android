@@ -308,45 +308,15 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="AndroidOpenDevelopment/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lp" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
-  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
-  <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" />
-  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
-  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
-  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
-  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
-  <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="AndroidOpenDevelopment/android_hardware_invensense" groups="invensense" remote="github" revision="lp" />
   <project path="hardware/libhardware" name="AndroidOpenDevelopment/android_hardware_libhardware" groups="pdk" remote="github" revision="lp" />
   <project path="hardware/libhardware_legacy" name="AndroidOpenDevelopment/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="lp" />
-  <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio/default" name="AndroidOpenDevelopment/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lp" />
   <project path="hardware/qcom/audio-caf/msm8960" name="AndroidOpenDevelopment/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lp-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8226" name="AndroidOpenDevelopment/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lp-caf-8226" />
   <project path="hardware/qcom/audio-caf/msm8974" name="AndroidOpenDevelopment/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lp-caf-8974" />
   <project path="hardware/qcom/bt" name="AndroidOpenDevelopment/android_hardware_qcom_bt" groups="qcom" remote="github" revision="lp" />
-  <project path="hardware/qcom/display" name="AndroidOpenDevelopment/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="lp" />
-  <project path="hardware/qcom/display-caf/msm8960" name="AndroidOpenDevelopment/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="lp-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8226" name="AndroidOpenDevelopment/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="lp-caf-8226" />
-  <project path="hardware/qcom/display-caf/msm8974" name="AndroidOpenDevelopment/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="lp-caf-8974" />
   <project path="hardware/qcom/gps" name="AndroidOpenDevelopment/android_hardware_qcom_gps" groups="qcom" remote="github" revision="lp" />
   <project path="hardware/qcom/keymaster" name="AndroidOpenDevelopment/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="lp" />
-  <project path="hardware/qcom/media/default" name="AndroidOpenDevelopment/android_hardware_qcom_media" groups="qcom" remote="github" revision="lp" />
-  <project path="hardware/qcom/media-caf/msm8960" name="AndroidOpenDevelopment/android_hardware_qcom_media" groups="qcom" remote="github" revision="lp-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8226" name="AndroidOpenDevelopment/android_hardware_qcom_media" groups="qcom" remote="github" revision="lp-caf-8226" />
-  <project path="hardware/qcom/media-caf/msm8974" name="AndroidOpenDevelopment/android_hardware_qcom_media" groups="qcom" remote="github" revision="lp-caf-8974" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
-  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
-  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
-  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <!-- <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" /> -->
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="AndroidOpenDevelopment/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="lp" />
@@ -431,13 +401,6 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
-  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="arm,darwin,pdk-cw-fs" />
-  <project path="prebuilts/clang/darwin-x86/host/3.4" name="platform/prebuilts/clang/darwin-x86/host/3.4" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,pdk-cw-fs" />
-  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,pdk-cw-fs,x86" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" />
@@ -449,17 +412,6 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="master" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
@@ -477,7 +429,6 @@
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
@@ -518,6 +469,16 @@
   <!-- Extra ti packages -->
   <project path="hardware/ti/wlan" name="AndroidOpenDevelopment/android_hardware_ti_wlan" remote="github" revision="lp" />
   <project path="hardware/ti/wpan" name="AndroidOpenDevelopment/android_hardware_ti_wpan" remote="github" revision="lp" />
+<!-- display-caf -->
+<project name="HtcLegacy/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.0-caf-msm7x27a" />
+<!-- media-caf -->
+<project name="HtcLegacy/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x27a" revision="cm-12.0-caf-legacy" />
+<!-- Device Tree, Kernel and Vendor -->
+<project path="device/lge/msm7x27a-common" name="CyanogenLGE/android_device_lge_msm7x27a-common" revision="cm-12.0" remote="github"/>
+<project path="device/lge/e610" name="CyanogenLGE/android_device_lge_e610" revision="cm-12.0" remote="github"/>
+<project path="kernel/lge/msm7x27a-common" name="Unleashed-rom/lge-kernel-lproj" revision="android-msm-3.4-lpp" remote="github"/>
+<project path="vendor/lge" name="CyanogenLGE/proprietary_vendor_lge" revision="cm-12.0" remote="github"/>
+<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
 
   <!-- Extra qcom related packages -->
   <project path="device/qcom/common" name="AndroidOpenDevelopment/android_device_qcom_common" remote="github" revision="lp" />
